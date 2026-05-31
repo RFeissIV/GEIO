@@ -1,0 +1,118 @@
+citHeader("To cite the GEIO package in publications, please use:")
+
+c(
+  bibentry(
+    bibtype = "Manual",
+    title   = "GEIO: Game-Equilibrium Index Optimization for Finite Games",
+    author  = person("Richard A.", "Feiss",
+                     comment = c(ORCID = "0009-0008-0409-6042")),
+    year    = "2026",
+    note    = "R package version 0.1.0",
+    url     = "https://github.com/RFeissIV/GEIO"
+  ),
+
+  bibentry(
+    bibtype  = "Article",
+    title    = "A global Newton method to compute Nash equilibria",
+    author   = c(person("Srihari", "Govindan"),
+                 person("Robert", "Wilson")),
+    journal  = "Journal of Economic Theory",
+    year     = "2003",
+    volume   = "110",
+    number   = "1",
+    pages    = "65--86",
+    doi      = "10.1016/S0022-0531(03)00005-X"
+  ),
+
+  bibentry(
+    bibtype = "Article",
+    title   = "A note on the Lemke-Howson algorithm",
+    author  = person("Lloyd S.", "Shapley"),
+    journal = "Mathematical Programming Study",
+    year    = "1974",
+    volume  = "1",
+    pages   = "175--189"
+  ),
+
+  bibentry(
+    bibtype  = "Article",
+    title    = "Intuition and Deliberation in the Stag Hunt Game",
+    author   = c(person("Marianna", "Belloc"),
+                 person("Ennio", "Bilancini"),
+                 person("Leonardo", "Boncinelli"),
+                 person("Simone", "D'Alessandro")),
+    journal  = "Scientific Reports",
+    year     = "2019",
+    volume   = "9",
+    pages    = "14833",
+    doi      = "10.1038/s41598-019-50556-8"
+  ),
+
+  bibentry(
+    bibtype   = "Book",
+    title     = "The Stag Hunt and the Evolution of Social Structure",
+    author    = person("Brian", "Skyrms"),
+    year      = "2004",
+    publisher = "Cambridge University Press",
+    address   = "Cambridge"
+  ),
+
+  bibentry(
+    bibtype = "Article",
+    title   = "Two-Point Step Size Gradient Methods",
+    author  = c(person("Jonathan", "Barzilai"),
+                person("Jonathan M.", "Borwein")),
+    journal = "IMA Journal of Numerical Analysis",
+    year    = "1988",
+    volume  = "8",
+    number  = "1",
+    pages   = "141--148",
+    doi     = "10.1093/imanum/8.1.141"
+  ),
+
+  bibentry(
+    bibtype   = "Book",
+    title     = "Trust-Region Methods",
+    author    = c(person("Andrew R.", "Conn"),
+                  person("Nicholas I. M.", "Gould"),
+                  person("Philippe L.", "Toint")),
+    year      = "2000",
+    publisher = "SIAM",
+    address   = "Philadelphia",
+    doi       = "10.1137/1.9780898719857"
+  ),
+
+  bibentry(
+    bibtype   = "Book",
+    title     = "Numerical Optimization",
+    author    = c(person("Jorge", "Nocedal"),
+                  person("Stephen J.", "Wright")),
+    year      = "2006",
+    edition   = "2nd",
+    publisher = "Springer",
+    address   = "New York",
+    isbn      = "978-0-387-30303-1"
+  ),
+
+  bibentry(
+    bibtype = "Article",
+    title   = "The conjugate gradient method in extremal problems",
+    author  = person("Boris T.", "Polyak"),
+    journal = "USSR Computational Mathematics and Mathematical Physics",
+    year    = "1969",
+    volume  = "9",
+    number  = "4",
+    pages   = "94--112",
+    doi     = "10.1016/0041-5553(69)90035-4"
+  ),
+
+  bibentry(
+    bibtype = "Misc",
+    title   = "A Trust Region Method with Regularized Barzilai-Borwein Step-Size for Large-Scale Unconstrained Optimization",
+    author  = c(person("Xin", "Xu"),
+                person("Congpei", "An")),
+    year    = "2024",
+    note    = "arXiv:2409.14383 [math]",
+    doi     = "10.48550/arXiv.2409.14383"
+  )
+)

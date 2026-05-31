@@ -1,0 +1,8 @@
+export(GEIO)
+export(geio_game)
+export(geio_numjac)
+export(geio_newton)
+export(geio_index)
+export(geio_fragility)
+export(geio_belloc_games)
+S3method(print, geio_result)

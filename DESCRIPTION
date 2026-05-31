@@ -1,0 +1,28 @@
+Package: GEIO
+Type: Package
+Title: Game-Equilibrium Index Optimization for Finite Games
+Version: 0.1.0
+Authors@R: person("Richard A.", "Feiss",
+    email = "feiss026@umn.edu",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0009-0008-0409-6042"))
+Description: Tracks local equilibrium-index diagnostics in simple finite-game
+    equilibrium systems. Provides constructors for small games, a damped
+    Newton solver, determinant-sign local-index calculations, singular-value
+    near-singularity diagnostics, and conservative consistency checks for
+    selected generic examples. Parameter optimization is delegated to
+    'GALAHAD'.
+URL: https://github.com/RFeissIV/GEIO
+BugReports: https://github.com/RFeissIV/GEIO/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+Depends: R (>= 4.2.0)
+Imports: GALAHAD (>= 2.0.0)
+Suggests: testthat (>= 3.0.0)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-05-28 21:19:40 UTC; root
+Author: Richard A. Feiss [aut, cre] (<https://orcid.org/0009-0008-0409-6042>)
+Maintainer: Richard A. Feiss <feiss026@umn.edu>
